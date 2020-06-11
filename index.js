@@ -9,10 +9,6 @@ const options = {
 };
 const bot = new TelegramBot(TOKEN, options);
 
-const port = process.env.PORT || 8080;
-app.listen(port, () => {
-    console.log("Server listening on port " + port);
-});
 
 
 let fileSize; // Size of the file we want to calculate the price for.
